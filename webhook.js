@@ -4,7 +4,6 @@ const express = require('express');
 const axios = require('axios');
 const app = express();
 
-
 const TELEGRAM_BOT_TOKEN = '7487179085:AAFdZo7dKhrdpGOWLJK8Hrf6BTOlb_Q0ToM';
 const TELEGRAM_CHAT_ID = '1184482681';
 
