@@ -9,7 +9,6 @@ const TELEGRAM_CHAT_ID = '1184482681';
 
 app.use(express.json());
 
-
 app.post('/github', async (req, res) => {
   const { pusher, repository, commits } = req.body;
 
