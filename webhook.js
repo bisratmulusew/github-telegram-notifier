@@ -12,7 +12,7 @@ app.use(express.json());
 app.post('/github', async (req, res) => {
   const { pusher, repository, commits } = req.body;
 
-  
+
   const message = `
 🔔 *New push to ${repository.full_name}*
 👤 *By:* ${pusher.name}
